@@ -1,0 +1,27 @@
+@import './index.scss';
+
+.Navigation {
+  background-color: #222;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    margin: 10px 20px;
+  }
+
+  a,
+  a:visited {
+    color: #ffffff;
+  }
+
+  a:hover {
+    color: $primary-color;
+  }
+}
